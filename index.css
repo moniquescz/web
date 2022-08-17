@@ -6,6 +6,7 @@ html {
     font-style: italic;
     letter-spacing: 2px;
     background-image: url("/files/PNGs/Aurora - 6.png");
+    background-size:     cover; 
     /*
     background: rgb(255,0,0);
     -background: linear-gradient(90deg, rgba(255,0,0,0.60) 0%, rgba(132,0,255,0.60) 100%);
@@ -26,6 +27,7 @@ html {
     width: 340px;
     height: 20%;
     background-color: rgba(255,255,255,0.2);
+    backdrop-filter: blur(2px);
     border-radius: 0.6cm;
     margin-left: auto;
     margin-right: auto;
